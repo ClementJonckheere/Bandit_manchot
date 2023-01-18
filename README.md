@@ -1,18 +1,16 @@
-## Getting Started
+## Mini jeu
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Bandit Manchot
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+Création d'un jeu Bandit Manchot
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+lons simplifier un peu :
+- Il y a 3 rouleaux sur votre machine.
+- Il y a 4 possibilités par rouleau.(Pique, Cœur, Trèfles,
+Carreau)
+- Le joueur mise avant de lancer la machine.
+- Si aucun symbole identiques, perte de mise
+- Si 2 symboles identiques, gain de mise/2
+- Si 3 symboles identiques, gain de mise + mise*2
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).

@@ -52,11 +52,12 @@ public class Game {
             String ANSI_RED = "\u001B[31m";
             String ANSI_GREEN ="\u001B[32m";
             String ANSI_BLUE ="\u001B[34m";
+            String ANSI_RESET ="\u001B[0m";
 
-            System.out.print(ANSI_BLACK + trefle);
-            System.out.print(ANSI_RED + coeur);
-            System.out.print(ANSI_GREEN + pique);
-            System.out.print(ANSI_BLUE + carreau);
+            System.out.print(ANSI_BLACK + trefle + ANSI_RESET);
+            System.out.print(ANSI_RED + coeur + ANSI_RESET);
+            System.out.print(ANSI_GREEN + pique + ANSI_RESET);
+            System.out.print(ANSI_BLUE + carreau + ANSI_RESET);
 
 
             Random rand1 = new Random();
